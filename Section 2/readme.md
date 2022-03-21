@@ -14,3 +14,8 @@ Timeline
 * train/test/validation 데이터 split
 * 새로운 column 추가
 * 전처리 완료 및 전처리 과정 함수로 변경
+
+### 22.03.21
+* 모델 학습
+* 모델 정확도 올리기
+* 모델 해석
