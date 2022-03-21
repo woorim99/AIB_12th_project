@@ -9,3 +9,8 @@ Timeline
 * 결측치 삭제
 * 불필요한 row, column 삭제
 * 매치 종류 별 시각화
+
+### 22.03.18
+* train/test/validation 데이터 split
+* 새로운 column 추가
+* 전처리 완료 및 전처리 과정 함수로 변경
