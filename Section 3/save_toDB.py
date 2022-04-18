@@ -1,3 +1,5 @@
+# API를 통해 가져온 데이터를 data.db에 저장합니다.
+
 import requests
 import sqlite3
 
@@ -46,6 +48,6 @@ def returnUserStat(match_list):
             conn.commit()
     return(id)  
 
-match_list = returnPlayerMatch('S2_Rimi') + returnPlayerMatch('glhboy') + returnPlayerMatch('17TAENG') + returnPlayerMatch('Js-o-zz') + returnPlayerMatch('choco_candy')
+match_list = returnPlayerMatch('플레이어 닉네임')  #플레이어 닉네임에 원하는 플레이어 이름 작성
 print(returnUserStat(match_list))
 
