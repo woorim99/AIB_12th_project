@@ -1,4 +1,4 @@
-제목못정함ㅎ
+PUBG TOP10 예측 웹 애플리케이션
 =============
 * 데이터 출처: https://developer.pubg.com/
 1. PUBG API 이용하여 아이디 검색해서 TOP10 안에 들 수 있는 실력인지 확인
