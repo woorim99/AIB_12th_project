@@ -15,7 +15,7 @@ def main():
 def home():
     name = request.form['name']
     header = { 
-    "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyN2UxN2U4MC1hMTA5LTAxM2EtYzQ5OS0wZTVmZGQ2ODc3NTYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjUwMjYwOTM0LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6Indvb19wMyJ9.9ee6mVz2tpkFlzb1P6QccxB3DwVHHa3DPu1zve4y690", 
+    "Authorization": "API key", 
     "Accept": "application/vnd.api+json" 
     }
 

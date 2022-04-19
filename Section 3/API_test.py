@@ -11,7 +11,7 @@ survival_url = f"https://api.pubg.com/shards/kakao/players/{id}/survival_mastery
 lifetime_url = f"https://api.pubg.com/shards/kakao/players/{id}/seasons/lifetime?filter[gamepad]=false"         #매치타입별 생존시간
 
 header = { 
-    "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyN2UxN2U4MC1hMTA5LTAxM2EtYzQ5OS0wZTVmZGQ2ODc3NTYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjUwMjYwOTM0LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6Indvb19wMyJ9.9ee6mVz2tpkFlzb1P6QccxB3DwVHHa3DPu1zve4y690", 
+    "Authorization": "API key", 
     "Accept": "application/vnd.api+json" 
     }
 
