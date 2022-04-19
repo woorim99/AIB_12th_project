@@ -1,5 +1,8 @@
+#test파일입니다.
+
 import requests 
 
+name = 'S2_Rimi'
 id = "account.cacb55280bb84012bc04ac2999f76fee"
 woorim_url = "https://api.pubg.com/shards/kakao/players?filter[playerNames]=S2_Rimi"  #유저정보
 match_url = "https://api.pubg.com/shards/kakao/matches/968ae5a2-f75c-489e-88d8-19c4de609456"   #매치정보
@@ -26,35 +29,8 @@ weapon_json = weapon_r.json()
 survival_json = survival_r.json()
 lifetime_json = lifetime_r.json()
 
-print(match_json)
-# print(player_woorim_json['data'][0]['relationships']['matches']['data'])
-match_list = []
-# for i in player_woorim_json['data'][0]['relationships']['matches']['data']:
-#     match_list.append(i['id'])
-#     # print(i['id'])
-# # print(match_list)
-
-# my_match_stat = []
-# for i in match_list:
-#     match_url = f"https://api.pubg.com/shards/kakao/matches/{i}"
-#     match_r = requests.get(match_url, headers=header)
-#     match_json = match_r.json()
-    
-#     for j in match_json['included']:              # 내아이디의 매치정보만 가져오기
-#         try: 
-#             if j['attributes']['stats']['name']=='S2_Rimi':
-#                 # print(i['attributes']['stats'])
-#                 my_match_stat.append(j['attributes']['stats'])
-#         except:
-#             pass
-
-# for i in match_json['included']:              # 내아이디의 매치정보만 가져오기
-#     try: 
-#         if i['attributes']['stats']['name']=='S2_Rimi':
-#             print(i['attributes']['stats'])
-#     except:
-#         pass
-    
+print(player_woorim_json['data'][0]['id'])
+# print(match_json)
 # print(weapon_json)
 # print(survival_json)
 # print(lifetime_json)

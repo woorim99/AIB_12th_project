@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG TOP10 PREDICTION</title>
+    <style type="text/css">
+        .my-box { border:10px solid rgb(226, 220, 140); padding:10px; width:600px;}
+    </style>
+</head>
+<body>
+    <center>
+        
+        {%if data == 1%}
+        <h1>배그 고수! <br>TOP10안에 들 수 있어요!</h1> 
+        <div class="my-box" >
+            <img src='static\kakaowin.jpg' style="width:500px; height: 300px;">
+            <br><br>
+            <b style="font-size:30px;"> {{name}}님의 평균 킬 : {{kills}} <br>
+            <b style="font-size:30px;"> {{name}}님의 평균 딜량 : {{damageDealt}} <br>
+            <b style="font-size:30px;"> {{name}}님의 평균 이동거리 : {{totalDistance}}    
+        </div>
+        <!-- <img src='static\setosa.jpg'>   -->
+
+        {%else%}
+        <h1>배린이 탈출 도전!<br> 아직 TOP10 안에 들 수 없어요ㅠㅠ</h1>
+        <div class="my-box" >
+            <img src='static\kakaofail.jpg' style="width:500px; height: 300px;">
+            <br><br>
+            <b style="font-size:30px; text-align:left;">{{name}}님의 평균 킬 : {{kills}} <br>
+            <b style="font-size:30px;">{{name}}님의평균 딜량 : {{damageDealt}} <br>
+            <b style="font-size:30px;">{{name}}님의평균 이동거리 : {{totalDistance}}    
+        </div>
+        
+        {%endif%}
+
+            <br><br>
+        <a href='/'>home</a>
+
+    </center>
+    
+</body>
+</html>

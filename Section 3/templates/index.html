@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG TOP10 PREDICTION</title>
+    <style type="text/css">
+        .my-box { border:10px solid rgb(226, 220, 140); padding:10px; width:600px;}
+    </style>
+</head>
+<body>
+    <center>
+
+        <h1>KAKAO PUBG TOP10 PREDICTION </h1><br>
+        <!-- <hr style="border: solid 10px rgb(226, 220, 140);"> -->
+        <div class="my-box" >
+            <img src='static\kakaomain.jpg' style="width:500px; height: 300px;">
+            <br><br>
+            <form method="POST", action="{{url_for('home')}}">
+            <b style="font-size:30px;"> PUBG ID :  <input type="text", name='name', placeholder="게임 ID를 입력하세요."  style="width:300px; font-size:30px;"> 
+                <input type="submit" , value='입력', style="font-size:30px;">
+            </form>
+        </div>
+        
+    </center>
+</body>
+</html>

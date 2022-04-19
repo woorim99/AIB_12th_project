@@ -4,7 +4,7 @@ import requests
 import sqlite3
 
 header = { 
-    "Authorization": "API key", 
+    "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyN2UxN2U4MC1hMTA5LTAxM2EtYzQ5OS0wZTVmZGQ2ODc3NTYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjUwMjYwOTM0LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6Indvb19wMyJ9.9ee6mVz2tpkFlzb1P6QccxB3DwVHHa3DPu1zve4y690", 
     "Accept": "application/vnd.api+json" 
     }
 
@@ -48,6 +48,6 @@ def returnUserStat(match_list):
             conn.commit()
     return(id)  
 
-match_list = returnPlayerMatch('플레이어 닉네임')  #플레이어 닉네임에 원하는 플레이어 이름 작성
+match_list = returnPlayerMatch('S2_Rimi') + returnPlayerMatch('glhboy') + returnPlayerMatch('17TAENG') + returnPlayerMatch('Js-o-zz') + returnPlayerMatch('choco_candy')  #플레이어 닉네임에 원하는 플레이어 이름 작성
 print(returnUserStat(match_list))
 
