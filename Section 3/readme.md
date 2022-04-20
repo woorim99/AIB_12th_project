@@ -19,5 +19,6 @@ Timeline
 * Front-end 꾸미기
 
 ### 22.04.20
+* Metabase Dashboard 제작
 
 ### 22.04.21
