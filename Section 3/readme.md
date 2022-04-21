@@ -22,3 +22,5 @@ Timeline
 * Metabase Dashboard 제작
 
 ### 22.04.21
+* 발표자료 만들기
+* 발표영상 녹화
