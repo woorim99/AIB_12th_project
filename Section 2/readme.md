@@ -51,6 +51,7 @@ Column 설명
 * 검증데이터 precision:  0.6543557469360716
 * 검증데이터 recall:  0.5911131059245961
 * 검증데이터 f1_score: 0.6211287533406697
+
 *![image](https://user-images.githubusercontent.com/64140376/188830725-f9b9b6e5-1288-4d94-b2f9-6acb50194977.png)
 
 ### Random Forest
@@ -58,7 +59,17 @@ Column 설명
 * 검증데이터 precision:  0.731750219876869
 * 검증데이터 recall:  0.6223818073010173
 * 검증데이터 f1_score: 0.672649365348856
+
 ![image](https://user-images.githubusercontent.com/64140376/188830989-fd570db0-6ed9-4596-9d09-b6955718013e.png)
+
+#### Decision Tree 보다 RandomForest가 f1-score가 더 높아 RandomForest 모델을 선택하였다.
+* 테스트 데이터 정확도: 0.9381149010183624
+* 테스트데이터 precision:  0.7400403038288638
+* 테스트데이터 recall:  0.6153647847383347
+* 테스트 데이터 f1_score: 0.6719684706875924
+
+![image](https://user-images.githubusercontent.com/64140376/188831550-f5505bd9-65d1-41a9-b88c-c1fc12a5996d.png)
+
 
 
 Timeline
