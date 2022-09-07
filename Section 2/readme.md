@@ -1,4 +1,4 @@
-PUBG Finish Placement Prediction
+PUBG TOP10 여부 예측
 =============
 * 데이터 출처: https://www.kaggle.com/c/pubg-finish-placement-prediction/data
 
