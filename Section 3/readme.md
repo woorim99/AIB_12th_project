@@ -3,6 +3,23 @@ PUBG TOP10 예측 웹 애플리케이션
 * 데이터 출처: https://developer.pubg.com/
 1. PUBG API 이용하여 아이디 검색해서 TOP10 안에 들 수 있는 실력인지 확인
 
+Data Pipeline
+-------------
+![image](https://user-images.githubusercontent.com/64140376/189045170-4c8cc690-ca8b-4e20-89fe-be1971886055.png)
+1. PUBG DEVELOPER API에서 4명의 유저들이 최근 14일 내에 플레이한 매치 내의 모든 플레이어들의 데이터를 가져와서 SQLite에 저장
+2. 랜덤포레스트로 모델링
+3. 모델을 Flask에서 받아와 닉네임을 입력하면 API에서 그 닉네임을 가진 플레이어의 정보를 가져와 프론트 엔드에 결과 값을 나타냄.
+
+결과
+-------------
+### 1. 메인페이지
+![image](https://user-images.githubusercontent.com/64140376/189045898-7df7cdde-3d27-48bd-b8df-bf5fe17d0420.png)
+### 2. TOP10 불가능 예측
+![image](https://user-images.githubusercontent.com/64140376/189046006-529f95c3-caf1-4215-83f2-17c4afbf3e9e.png)
+### 3. TOP10 가능 예측
+![image](https://user-images.githubusercontent.com/64140376/189046056-8c092782-9a67-456b-9244-5d3785575e7d.png)
+
+
 Timeline
 -------------
 ### 22.04.18
